@@ -1,0 +1,19 @@
+#board div {
+  float: left;
+  box-sizing: border-box;
+  height: 120px;
+  width: 120px;
+  border: solid 3px black;
+  display: inline-block;
+  margin: 3px;
+  font-size: 3em;
+  text-align: center;
+  line-height: 120px;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+}
+
+#board div:nth-child(3n+1) {
+  clear: both;
+}

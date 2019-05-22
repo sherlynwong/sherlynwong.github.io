@@ -1,0 +1,12 @@
+body{
+background-color: white;
+}
+
+
+
+.carousel-item{
+    height: 80vh;
+} 
+.carousel-item img{
+    height: 80vh;
+}
